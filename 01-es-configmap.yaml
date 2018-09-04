@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: es-config
+data:
+  elasticsearch.yml: |
+    cluster.name: your-cluster-name
+    network.host: "0.0.0.0"
+    bootstrap.memory_lock: false
+    discovery.zen.ping.unicast.hosts: es-sts-governor
+    discovery.zen.minimum_master_nodes: 1
+    xpack.security.enabled: false
+    xpack.monitoring.enabled: false
+  ES_JAVA_OPTS: -Xms500m -Xmx500m
