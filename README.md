@@ -1,12 +1,12 @@
-# Welcome to Short test of Elasticsearch in Kubernetes
+# Welcome to the short test of Elasticsearch Cluster in Kubernetes
 
  - Deploying an elasticsearch cluster: stateful sets, configmaps and services
  - with persistent volumes for each pod storage
 
 ## Prerequisites
 
- - A working kubernetes cluster with persistent storage like glusterfs, EBS
- - Kubernetes can be either in local machines or public cloud like EC2, GCP or Azure service
+ - A working kubernetes cluster with persistent storage like glusterfs, EBS, etc.
+ - Kubernetes 1.11(1.10 will also be ok) can be either in local machines or public cloud like EC2, GCP or Azure service
 
 ## Comments
 
