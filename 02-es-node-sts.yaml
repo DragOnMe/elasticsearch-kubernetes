@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: es-cluster
-  serviceName: es-sts-governor
+  serviceName: es-sts-hs
   replicas: 2
   updateStrategy:
     type: RollingUpdate

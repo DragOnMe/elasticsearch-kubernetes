@@ -1,7 +1,8 @@
+# A headless governing service
 apiVersion: v1
 kind: Service
 metadata:
-  name: es-sts-governor
+  name: es-sts-hs
   labels:
     app: es-cluster
 spec:
